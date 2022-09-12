@@ -1,0 +1,11 @@
+{
+  "name": "ueb5",
+  "version": "1.0.0",
+  "description": "Übungsblatt5 Aufgabe 1",
+  "main": "src/Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
