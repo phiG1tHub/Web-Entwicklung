@@ -2,10 +2,14 @@
   "name": "ueb5",
   "version": "1.0.0",
   "description": "Übungsblatt5 Aufgabe 1",
-  "main": "src/Main.js",
+  "main": "server/src/Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "semistandard Client/src/js/**/*.js && semistandard Server/**/*.js",
+    "start": "node Server/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.8"
+  }
 }
